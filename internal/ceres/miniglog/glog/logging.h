@@ -111,7 +111,7 @@
 
 // Log severity level constants.
 const int FATAL   = -3;
-const int ERROR   = -2;
+const int GLOG_ERROR   = -2;
 const int WARNING = -1;
 const int INFO    =  0;
 
@@ -122,7 +122,7 @@ namespace google {
 typedef int LogSeverity;
 const int INFO    = ::INFO;
 const int WARNING = ::WARNING;
-const int ERROR   = ::ERROR;
+const int GLOG_ERROR = ::GLOG_ERROR;
 const int FATAL   = ::FATAL;
 
 // Sink class used for integration with mock and test functions. If sinks are
